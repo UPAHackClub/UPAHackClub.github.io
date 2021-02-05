@@ -1,3 +1,11 @@
+/* Fonts */
+    @font-face {
+      font-family: 'Polt Regular';
+      font-style: normal;
+      font-weight: normal;
+      src: url(../fonts/Polt-Regular.woff);
+    }
+
 zoomLink {
   color: #1D9AF2;
   background-color: #292D3E;
@@ -18,10 +26,5 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-ul {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  font-family: 'Polt Regular';
 }
