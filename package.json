@@ -1,0 +1,23 @@
+{
+  "name": "upa-hackclub",
+  "version": "1.0.0",
+  "description": "The code for the https://upahack.club website using TailWind CSS.",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx tailwindcss-cli@latest build ./src/styles.css -o ./public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UPAHackClub/ClubSite"
+  },
+  "keywords": [],
+  "author": "kaidevrim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UPAHackClub/ClubSite/issues"
+  },
+  "homepage": "https://github.com/UPAHackClub/ClubSite#readme",
+  "dependencies": {
+    "tailwindcss": "^1.4.6"
+  }
+}
