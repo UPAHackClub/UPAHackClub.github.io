@@ -5,13 +5,18 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      outline: {
+        grey: "2px solid #D5D5D5",
+      },
       fontFamily: {
         sans: ["polt"],
       },
     },
   },
   variants: {
-    extend: { padding: ["hover"] },
+    extend: {
+      borderColor: ["focus", "active"],
+    },
   },
   plugins: [],
 };
