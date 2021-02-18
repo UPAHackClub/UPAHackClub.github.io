@@ -1,4 +1,5 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
+const colors = require("tailwindcss/colors");
 
 module.exports = {
   purge: ["./src/**/*.html", "./src/**/*.js"],
@@ -11,6 +12,19 @@ module.exports = {
       fontFamily: {
         sans: ["polt"],
       },
+    },
+    colors: {
+      amber: colors.amber,
+      gray: colors.trueGray,
+      red: colors.red,
+      blue: colors.lightBlue,
+      purple: colors.purple,
+      green: colors.green,
+      orange: colors.orange,
+      yellow: colors.yellow,
+      lime: colors.lime,
+      white: colors.white,
+      emerald: colors.emerald,
     },
   },
   variants: {
