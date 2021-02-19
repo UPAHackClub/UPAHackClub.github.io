@@ -5,12 +5,12 @@ module.exports = {
   purge: ["./src/**/*.html", "./src/**/*.js"],
   darkMode: false, // or 'media' or 'class'
   theme: {
+fontFamily: {
+      custom: ['Polt', 'sans-serif'],
+    },
     extend: {
       outline: {
         grey: "2px solid #D5D5D5",
-      },
-      fontFamily: {
-        sans: ["polt"],
       },
     },
     colors: {
