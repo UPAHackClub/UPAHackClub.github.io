@@ -14,17 +14,12 @@ fontFamily: {
       },
     },
     colors: {
-      amber: colors.amber,
       gray: colors.trueGray,
       red: colors.red,
       blue: colors.lightBlue,
       purple: colors.purple,
       green: colors.green,
-      orange: colors.orange,
-      yellow: colors.yellow,
-      lime: colors.lime,
       white: colors.white,
-      emerald: colors.emerald,
     },
   },
   variants: {
