@@ -5,8 +5,8 @@ module.exports = {
   purge: ["./src/**/*.html", "./src/**/*.js"],
   darkMode: false, // or 'media' or 'class'
   theme: {
-fontFamily: {
-      custom: ['Polt', 'sans-serif'],
+    fontFamily: {
+      custom: ["Polt", "sans-serif"],
     },
     extend: {
       outline: {
@@ -20,6 +20,7 @@ fontFamily: {
       purple: colors.purple,
       green: colors.green,
       white: colors.white,
+      black: colors.black,
     },
   },
   variants: {
