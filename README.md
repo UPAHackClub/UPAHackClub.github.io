@@ -1,56 +1,33 @@
 This is the official code for UPA Hack Club's Website. https://upahack.club
 
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
-***
-***
-***
-*** To avoid retyping too much info. Do a search and replace for the following:
-*** github_username, repo_name, twitter_handle, email, project_title, project_description
--->
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![Contributors][contributors-shield]][https://github.com/UPAHackClub/ClubSite/graphs/contributors]
+[![Forks][forks-shield]][https://github.com/UPAHackClub/ClubSite/network/members]
+[![Stargazers][stars-shield]][https://github.com/UPAHackClub/ClubSite/stargazers]
+[![Issues][issues-shield]][https://github.com/UPAHackClub/ClubSite/issues]
+[![MIT License][license-shield]][https://github.com/UPAHackClub/ClubSite/blob/master/LICENSE]
 
 
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/UPAHackClub/ClubSite">
+    <img src="./metaimage.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">project_title</h3>
+  <h3 align="center">UPA Hack Club's Website</h3>
 
   <p align="center">
-    project_description
+    The official website for the University Preparatory Academy Hack Club.
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/UPAHackClub/ClubSite"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://upahack.club">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/UPAHackClub/ClubSite/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/UPAHackClub/ClubSite/issues">Request Feature</a>
   </p>
 </p>
 
@@ -87,18 +64,13 @@ This is the official code for UPA Hack Club's Website. https://upahack.club
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
+[![The Website][product-screenshot]](https://upahack.club)
 
 
 ### Built With
 
-* []()
-* []()
-* []()
+* [TailWindCSS](https://tailwindcss.com/)
+* [npm](https://www.npmjs.com/)
 
 
 
@@ -109,38 +81,33 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+How to 
 * npm
   ```sh
-  npm install npm@latest -g
+  npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
   ```
 
 ### Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/UPAHackClub/ClubSite.git
    ```
 2. Install NPM packages
    ```sh
    npm install
    ```
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+3. Build the CSS
+   ```sh
+   npm run build-css
+   ```
 
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/UPAHackClub/ClubSite/issues) for a list of proposed features (and known issues).
 
 
 
@@ -160,25 +127,25 @@ Contributions are what make the open source community such an amazing place to b
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the AGPVL3 License. See `LICENSE` for more information.
 
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Kai Devrim - [hackclub@devrim.tech](mailto:hackclub@devrim.tech) - email
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+File an Issue: [ClubSite/issues](https://github.com/UPAHackClub/ClubSite/issues)
 
 
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
-* []()
-* []()
+* [TailWindCSS](https://tailwindcss.com/)
+* [npm](https://www.npmjs.com)
+* [sohamb117](https://github.com/sohamb117)
 
 
 
@@ -186,15 +153,13 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/github_username
+[contributors-shield]: https://img.shields.io/github/contributors/UPAHackClub/ClubSite.svg?style=for-the-badge
+[contributors-url]: https://github.com/UPAHackClub/ClubSite/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/UPAHackClub/ClubSite.svg?style=for-the-badge
+[forks-url]: https://github.com/UPAHackClub/ClubSite/network/members
+[stars-shield]: https://img.shields.io/github/stars/UPAHackClub/ClubSite.svg?style=for-the-badge
+[stars-url]: https://github.com/UPAHackClub/ClubSite/stargazers
+[issues-shield]: https://img.shields.io/github/issues/UPAHackClub/ClubSite.svg?style=for-the-badge
+[issues-url]: https://github.com/UPAHackClub/ClubSite/issues
+[license-shield]: https://img.shields.io/github/license/UPAHackClub/ClubSite.svg?style=for-the-badge
+[license-url]: https://github.com/UPAHackClub/ClubSite/blob/master/LICENSE.txt
