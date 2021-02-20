@@ -1,10 +1,9 @@
 This is the official code for UPA Hack Club's Website. https://upahack.club
 
-[![Contributors][contributors-shield]][https://github.com/UPAHackClub/ClubSite/graphs/contributors]
-[![Forks][forks-shield]][https://github.com/UPAHackClub/ClubSite/network/members]
-[![Stargazers][stars-shield]][https://github.com/UPAHackClub/ClubSite/stargazers]
-[![Issues][issues-shield]][https://github.com/UPAHackClub/ClubSite/issues]
-[![MIT License][license-shield]][https://github.com/UPAHackClub/ClubSite/blob/master/LICENSE]
+[contributors-shield]: https://img.shields.io/github/contributors/UPAHackClub/ClubSite.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/UPAHackClub/ClubSite.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/UPAHackClub/ClubSite.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/UPAHackClub/ClubSite.svg?style=for-the-badge
 
 
 
@@ -12,7 +11,7 @@ This is the official code for UPA Hack Club's Website. https://upahack.club
 <br />
 <p align="center">
   <a href="https://github.com/UPAHackClub/ClubSite">
-    <img src="./metaimage.png" alt="Logo" width="80" height="80">
+    <img src="./metaimage.png" alt="Logo">
   </a>
 
   <h3 align="center">UPA Hack Club's Website</h3>
