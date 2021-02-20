@@ -1,9 +1,9 @@
 This is the official code for UPA Hack Club's Website. https://upahack.club
 
-[contributors-shield]: https://img.shields.io/github/contributors/UPAHackClub/ClubSite.svg?style=for-the-badge
-[stars-shield]: https://img.shields.io/github/stars/UPAHackClub/ClubSite.svg?style=for-the-badge
-[issues-shield]: https://img.shields.io/github/issues/UPAHackClub/ClubSite.svg?style=for-the-badge
-[license-shield]: https://img.shields.io/github/license/UPAHackClub/ClubSite.svg?style=for-the-badge
+![contributors-shield](https://img.shields.io/github/contributors/UPAHackClub/ClubSite.svg?style=for-the-badge)
+![stars-shield](https://img.shields.io/github/stars/UPAHackClub/ClubSite.svg?style=for-the-badge)
+![issues-shield](https://img.shields.io/github/issues/UPAHackClub/ClubSite.svg?style=for-the-badge)
+![license-shield](https://img.shields.io/github/license/UPAHackClub/ClubSite.svg?style=for-the-badge)
 
 
 
@@ -63,12 +63,12 @@ This is the official code for UPA Hack Club's Website. https://upahack.club
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![The Website][product-screenshot]](https://upahack.club)
+![](https://github.com/UPAHackClub/ClubSite/blob/master/HackClubimage.png)
 
 
 ### Built With
 
-* [TailWindCSS](https://tailwindcss.com/)
+* [TailwindCSS](https://tailwindcss.com/)
 * [npm](https://www.npmjs.com/)
 
 
@@ -142,7 +142,7 @@ File an Issue: [ClubSite/issues](https://github.com/UPAHackClub/ClubSite/issues)
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* [TailWindCSS](https://tailwindcss.com/)
+* [TailwindCSS](https://tailwindcss.com/)
 * [npm](https://www.npmjs.com)
 * [sohamb117](https://github.com/sohamb117)
 
@@ -152,13 +152,13 @@ File an Issue: [ClubSite/issues](https://github.com/UPAHackClub/ClubSite/issues)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/UPAHackClub/ClubSite.svg?style=for-the-badge
-[contributors-url]: https://github.com/UPAHackClub/ClubSite/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/UPAHackClub/ClubSite.svg?style=for-the-badge
-[forks-url]: https://github.com/UPAHackClub/ClubSite/network/members
-[stars-shield]: https://img.shields.io/github/stars/UPAHackClub/ClubSite.svg?style=for-the-badge
-[stars-url]: https://github.com/UPAHackClub/ClubSite/stargazers
-[issues-shield]: https://img.shields.io/github/issues/UPAHackClub/ClubSite.svg?style=for-the-badge
-[issues-url]: https://github.com/UPAHackClub/ClubSite/issues
-[license-shield]: https://img.shields.io/github/license/UPAHackClub/ClubSite.svg?style=for-the-badge
-[license-url]: https://github.com/UPAHackClub/ClubSite/blob/master/LICENSE.txt
+<!-- ![contributors-shield](https://img.shields.io/github/contributors/UPAHackClub/ClubSite.svg?style=for-the-badge) -->
+<!-- [contributors-url]: https://github.com/UPAHackClub/ClubSite/graphs/contributors -->
+<!-- ![forks-shield](https://img.shields.io/github/forks/UPAHackClub/ClubSite.svg?style=for-the-badge) -->
+<!-- [forks-url]: https://github.com/UPAHackClub/ClubSite/network/members -->
+<!-- ![stars-shield](https://img.shields.io/github/stars/UPAHackClub/ClubSite.svg?style=for-the-badge) -->
+<!-- [stars-url]: https://github.com/UPAHackClub/ClubSite/stargazers -->
+<!-- ![issues-shield](https://img.shields.io/github/issues/UPAHackClub/ClubSite.svg?style=for-the-badge) -->
+<!-- [issues-url]: https://github.com/UPAHackClub/ClubSite/issues -->
+<!-- ![license-shield](https://img.shields.io/github/license/UPAHackClub/ClubSite.svg?style=for-the-badge) -->
+<!-- [license-url]: https://github.com/UPAHackClub/ClubSite/blob/master/LICENSE -->
