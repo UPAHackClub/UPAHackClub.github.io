@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  - const content = `UPA Hack Club - Meeting ${meeting.num}`
+  meta(content=content property="og:title")
+  - const description = `${meeting.title} - ${meeting.description}`
+  meta(content=description property="og:description")
+  - const url = `https://upalinks.hackclub.com/images/${meeting.num}.jpg`
+  meta(content=url property="og:image")
+  meta(name="description" content=description)
+  <link rel="stylesheet" href="/style.css">
+  link(rel="icon" type="image/x-icon" href="https://hackclubweb.zamji.repl.co/icon.jpg")
+  <title>UPA Hack Club - Meeting ##{meeting.num}</title>
+</head>
+
+<body>
+  <h1>Meeting #{meeting.num}: #{meeting.title}</h1>
+  <p>#{meeting.description}</p>
+
+  if meeting.iframe != undefined
+    each iframe of meeting.iframe
+      - 
+        const { title, url, large } = iframe
+        let width = 350
+        if (large) width = 800
+      <h5>#{title}</h5>
+      iframe(src=url width=width height=300)
+
+  if meeting.sections != undefined
+    each section of meeting.sections
+      <h5>#{section.title}</h5>
+      <ul>
+        each link of section.links
+          - const [ title, url ] = link
+          <li>
+            a(class="link" href=url) #{title}
+          </li>
+      </ul>
+</body>
+
+</html>

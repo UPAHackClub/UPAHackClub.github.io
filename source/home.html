@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="UPA Hack Club" property="og:title">
+  <meta content="A chapter of Hack Club located at University Preparatory Academy in San Jose, California." property="og:description">
+  <meta name="description" content="A chapter of Hack Club located at University Preparatory Academy in San Jose, California.">
+  <link rel="stylesheet" href="/style.css">
+  link(rel="icon" type="image/x-icon" href="https://hackclubweb.zamji.repl.co/icon.jpg")
+  <title>UPA Hack Club</title>
+</head>
+
+<body>
+  <h1>UPA Hack Club</h1>
+  <p>View recent meetings - resources, links, and images. All important links and examples will be posted in the meeting pages.</p>
+  <div class="box-grid" id="grid">
+    each meeting in meetings
+      - const link = `/meetings/${meeting.num}`
+      a(class="box" href=link)
+        <div class="box-inner">
+          <div class="box-title">Meeting ##{meeting.num}</div>
+          <div class="box-description">#{meeting.title}</div>
+          <div class="box-image-container">
+            -
+              let src = `/images/${meeting.num}.jpg`
+              if (meeting.image)
+                src = `/images/${meeting.image}`
+            img(src=src class="box-image")
+            <div class="box-image-text">#{meeting.description}</div>
+          </div>
+        </div>
+  </div>
+</body>
+
+</html>

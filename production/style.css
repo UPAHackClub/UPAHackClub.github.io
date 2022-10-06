@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  margin: 1em;
+}
+
+a.link {
+	font-size: 18px;
+	color: #ec3750;
+	text-decoration:  none;
+}
+
+a.link:hover {
+	text-decoration: underline;
+}
+
+li {
+	font-family: "Work Sans" ;
+	font-weight: 300;
+	font-size: 18px;
+	text-decoration:  none;
+	color: #1f2d3d;
+}
+
+h1 {
+	font-size: 42px;
+	color: #1f2d3d;
+}
+
+h3 {
+	font-size: 22px;
+	color: #1f2d3d;
+}
+
+h5 {
+  margin-bottom: 0;
+	font-size: 18px;
+	color: #1f2d3d;
+  font-weight: 400;
+}
+
+p {
+	font-weight: 300;
+	font-size: 18px;
+	color: #1f2d3d;
+	text-decoration:  none;
+}
+
+.box-grid {
+  margin-top: 1.5em;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+@media only screen and (max-width: 1200px) {
+  .box-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .box-grid {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+.box {
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  border-radius: 15px;
+  padding: 5px;
+  text-decoration: none;
+  color: #ec3750;
+}
+
+.box:hover {
+  color: #54000b;
+}
+
+.box-inner {
+  margin: 3px;
+}
+
+.box-title {
+  font-weight: 400;
+  font-size: 150%;
+}
+
+.box-description {
+  font-weight: 300;
+  font-size: 125%
+}
+
+.box-image-container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.box-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-top: 10px;
+  margin-bottom: -3px;
+  border-radius: 15px;
+  opacity: 70%;
+}
+
+.box-image-text {
+  font-weight: 500;
+  font-size: 110%;
+  position: absolute;
+  top: 50%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+a:hover div.box-inner div.box-image-container .box-image-text {
+  animation: fadeIn 0.7s;
+  display: block;
+}
+
+a:hover div.box-inner div.box-image-container .box-image {
+  opacity: 30%;
+  animation: lighten 0.3s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes lighten {
+  0% { opacity: 0.7; }
+  100% { opacity: 0.3; }
+}

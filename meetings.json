@@ -1,0 +1,102 @@
+[
+  {
+    "num": 1,
+    "title": "Personal Website",
+    "description": "In this meeting we worked on a personal website, looking at examples and using simple HTML tags and CSS styles.",
+    "sections": [
+      {
+        "title": "Personal Website Examples",
+        "links": [
+          ["filsdegraphiste.fr", "https://filsdegraphiste.fr"],
+          ["rishi.cx", "https://rishi.cx"],
+          ["belonovich.com", "https://belonovich.com"],
+          ["nicolefullerinteriors.com", "https://nicolefullerinteriors.com"],
+          ["rolandhidvegi.design", "https://rolandhidvegi.design"]
+        ]
+      },
+
+      {
+        "title": "Materials and Documentation",
+        "links": [
+          ["Meeting Slideshow", "https://docs.google.com/presentation/d/1lRUoQrd7-qp67ciVv88xnaybeStN-bn78m5wM67Sxjk/edit#slide=id.gf96545da61_0_0"],
+          ["Personal Website Workshop", "https://workshops.hackclub.com/personal_website/"],
+          ["w3schools CSS Documentation", "https://www.w3schools.com/css/default.asp"],
+          ["w3schools HTML Documentation", "https://www.w3schools.com/html/default.asp"]
+        ]
+      }
+    ]
+  },
+
+  {
+    "num": 2,
+    "title": "CSS Hacking",
+    "description": "In this meeting we worked on learning new styles in CSS and adding them to our personal website.",
+    "sections": [
+      {
+        "title": "Materials and Documentation",
+        "links": [
+          ["Meeting Slideshow", "https://docs.google.com/presentation/d/1DLAtK9XPfuhczdQq_dgPVi9Rm1KPrmK9uvpp5tbJnKE/edit?usp=sharing"],
+          ["Personal Website Workshop", "https://workshops.hackclub.com/personal_website/"],
+          ["w3schools CSS Documentation", "https://www.w3schools.com/css/default.asp"],
+          ["w3schools HTML Documentation", "https://www.w3schools.com/html/default.asp"]
+        ]
+      }
+    ]
+  },
+
+  {
+    "num": 3,
+    "title": "Splatter Paint",
+    "description": "In this meeting we worked on painting in the browser using the JavaScript library \"Splatter Paint\".",
+    "sections": [
+      {
+        "title": "Materials and Documentation",
+        "links": [
+          ["Hack Club Workshop", "https://workshops.hackclub.com/splatter_paint/"],
+          ["Final Code", "https://replit.com/@TechBug2012/splatter-paint"],
+          ["Final Website Demo", "https://splatter-paint.techbug2012.repl.co/"],
+          ["PaperJS Website", "http://paperjs.org/"],
+          ["HTML5 Canvas Element", "https://www.w3schools.com/html/html5_canvas.asp"],
+          ["w3schools CSS Documentation", "https://www.w3schools.com/css/default.asp"],
+          ["w3schools HTML Documentation", "https://www.w3schools.com/html/default.asp"]
+        ]
+      }
+    ],
+    "iframe": [
+      {
+        "title": "Splatter Paint Demo Website: (hover over the square)",
+        "url": "https://splatter-paint.techbug2012.repl.co/"
+      }
+    ]
+  },
+
+  {
+    "num": 4,
+    "title": "Responsive Navbar",
+    "description": "In this meeting we worked on creating a responsive navbar which expands based on the width of the user's screen.",
+    "sections": [
+      {
+        "title": "Materials and Documentation",
+        "links": [
+          ["Meeting Slideshow", "https://docs.google.com/presentation/d/1wfydesy2ME2eyxn5TNaeoyDOZmoIZEYPbkAWzELyym8/edit?usp=sharing"],
+          ["Hack Club Workshop", "https://workshops.hackclub.com/responsive_navbar/"],
+          ["Final Code", "https://replit.com/@zamji/Responsive-Navbar"],
+          ["Final Website Demo", "https://Responsive-Navbar.zamji.repl.co/"],
+          ["w3schools CSS Documentation", "https://www.w3schools.com/css/default.asp"],
+          ["w3schools HTML Documentation", "https://www.w3schools.com/html/default.asp"]
+        ]
+      }
+    ],
+    "iframe": [
+      {
+        "title": "Navbar at Full Size:",
+        "url": "https://Responsive-Navbar.zamji.repl.co/",
+        "large": true
+      },
+      {
+        "title": "Navbar at Small Size:",
+        "url": "https://Responsive-Navbar.zamji.repl.co/"
+      }
+    ]
+  }
+]
